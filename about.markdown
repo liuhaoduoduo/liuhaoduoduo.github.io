@@ -1,18 +1,13 @@
 ---
 layout: page
-title: About
+title: 关于
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+欢迎来到刘浩的技术学习笔记！在这里，我记录了学习技术的旅程中的点滴心得和领悟。无论您对哪个技术方向感兴趣，我都努力为您提供清晰而深入的理解，让您在学习过程中能够更轻松地掌握知识。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+我的内容绝非简单的摘录或转述，而是对技术点的深入思考和独立理解。我坚持原创，绝不搬运他人的内容，即使引用也会如实注明出处。这样，您可以放心地借鉴和参考我的文章，同时也可以放心地分享给其他人，因为我始终秉持着最高的学术和职业道德。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+无论您是刚刚起步的初学者，还是已经在技术领域摸爬滚打多年的老手，我相信在这里您都能找到有价值的内容。技术学习从来没有止境，我期待与您一同探索、一同成长！
 
-
-[jekyll-organization]: https://github.com/jekyll
+感谢您选择刘浩的技术学习笔记，让我们一起在技术的海洋中探索无尽的可能性吧！
