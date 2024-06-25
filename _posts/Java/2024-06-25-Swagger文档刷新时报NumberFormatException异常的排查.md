@@ -17,13 +17,13 @@ categories: Java
 * Debug源码
 
 通过错误日志中展示的堆栈信息，可以定位到错误发生时执行的代码。在此处打一个断点。
-![错误发生时执行的代码](https://github.com/liuhaoduoduo/liuhaoduoduo.github.io/raw/add-doc/images/240625153346.jpg)
+![错误发生时执行的代码](https://github.com/liuhaoduoduo/liuhaoduoduo.github.io/raw/main/images/240625153346.jpg)
 
 此时，选择以Dbug模式启动项目，然后打开Swagger文档页面。正常来说代码执行到刚刚添加断点的位置停住。利用Idea的debug能力可以得到一个动态的堆栈列表。
-![动态的堆栈列表](https://github.com/liuhaoduoduo/liuhaoduoduo.github.io/raw/add-doc/images/240625154128.jpg)
+![动态的堆栈列表](https://github.com/liuhaoduoduo/liuhaoduoduo.github.io/raw/main/images/240625154128.jpg)
 
 逐层的点击堆栈中每一行，观察在执行到该行时右侧所展示的数据信息，看是否存在对排查问题有帮助的内容。我在点击到了第5层fromProperty方法时发现了有价值的信息。
-![有价值的内容](https://github.com/liuhaoduoduo/liuhaoduoduo.github.io/raw/add-doc/images/240625154746.jpg)
+![有价值的内容](https://github.com/liuhaoduoduo/liuhaoduoduo.github.io/raw/main/images/240625154746.jpg)
 
 以“用户ID”为关键字，在项目中搜索看哪个满足这个搜索条件的字段在使用Swagger时没有注解没有配置正确即可解决问题。
 
